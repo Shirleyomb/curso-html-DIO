@@ -1,0 +1,63 @@
+body {
+    background: RGB(221, 160, 221);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.photo {
+    border-radius: 50%;
+    border: 2px solid mediumslateblue;
+    margin-top: 5%;
+}
+
+#title, .subtitle, .post_title {
+    color: indigo;
+}
+
+#title {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a {
+text-decoration: underline;
+color: indigo
+}
+
+.post_title {
+    font-size: 15px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom:15px;
+
+}
+
+.post {
+    background: lavenderblush;
+    padding: 15px;
+    border: solid darkmagenta;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.post_content {
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: center
+}
+
+.post_image {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 15px;   
+}
+
+.contact_list li a {
+    color: #6A5ACD;
+}
